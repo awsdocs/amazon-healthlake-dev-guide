@@ -1,0 +1,3 @@
+# Getting started with Amazon HealthLake<a name="getting-started"></a>
+
+To get started using Amazon HealthLake, set up an AWS account and create an AWS Identity and Access Management \(IAM\) user\. To use the [ AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html), [AWS SDK for Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/index.html), or the [ AWS SDK for Java](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-install.html), download and configure them\.

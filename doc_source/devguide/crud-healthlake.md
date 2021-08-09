@@ -20,36 +20,36 @@ The following table lists the actions that are supported by HealthLake\.
 |  Search   | Search the resource type based on filter criteria | Type\-level | 
 |  Capabilities  | Get a capability statement for the system | Whole\-system level | 
 
- The following table lists the 71 resources types supported by HealthLake\. You can use these resources as search criteria or as part of analysis workflows\. 
+ The following table lists the resource types supported by HealthLake\. You can use these resources as search criteria or as part of analysis workflows\. 
 
 
 **Supported FHIR Resource Types**  
 
 |  |  |  | 
 | --- |--- |--- |
-|  Account  | DocumentReference | Parameters | 
-| ActivityDefinition | Encounter | Patient | 
-| AllergyIntolerance | Endpoint | PaymentNotice | 
-| Appointment | EpisodeofCare | PaymentReconciliation | 
-| AppointmentResponse | ExplanationOfBenefit | Person | 
-| AuditEvent |  FamilyMemberHistory  | Practitioner | 
-|  Binary  | Goal | PractitionerRole | 
-| Bundle | GuidanceResponse | Procedure | 
-|  CapabilityStatement  | HealthcareService | Provenance | 
-| CarePlan | ImagingStudy | Questionnaire | 
-| CareTeam | Immunization | QuestionnaireResponse | 
-| Claim | Library | RelatedPerson | 
-| ClaimResponse |  Location  |  RequestGroup  | 
-|  CodeSystem  |  Measure  |  Schedule  | 
-|  Communication  |  MeasureReport  |  ServiceRequest  | 
-| CommunicationRequest | Medication |  Slot  | 
-| ConceptMap | MedicationAdministration |  Specimen  | 
-| Condition |  MedicationDispense  |  StructureDefinition  | 
-|  Coverage  |  MedicationRequest  |  StructureMap  | 
-| CoverageEligibilityRequest |  MessageHeader  |  Substance  | 
-| CoverageEligibilityResponse | NutritionOrder | ValueSet | 
-| Device |  Observation  |  VisionPrescription  | 
-|  DiagnosticReport  |  OperationOutcome  |   | 
-| DocumentManifest | Organization |     | 
+|  Account  | DocumentReference | Organization | 
+| ActivityDefinition | Encounter | Parameters | 
+| AllergyIntolerance | Endpoint | Patient | 
+| Appointment | EpisodeofCare | PaymentNotice | 
+| AppointmentResponse | ExplanationOfBenefit | PaymentReconciliation | 
+| AuditEvent |  FamilyMemberHistory  | Person | 
+|  Binary  | Goal | Practitioner | 
+| Bundle | GuidanceResponse | PractitionerRole | 
+|  CapabilityStatement  | HealthcareService | Procedure | 
+| CarePlan | ImagingStudy | Provenance | 
+| CareTeam | Immunization | Questionnaire | 
+| Claim | Library | QuestionnaireResponse | 
+| ClaimResponse |  Location  | RelatedPerson | 
+|  CodeSystem  |  Measure  |  RequestGroup  | 
+|  Communication  |  MeasureReport  |  Schedule  | 
+| CommunicationRequest | Medication |  ServiceRequest  | 
+| ConceptMap | MedicationAdministration |  Slot  | 
+| Condition |  MedicationDispense  |  Specimen  | 
+|  Coverage  |  MedicationRequest  |  StructureDefinition  | 
+| CoverageEligibilityRequest |  MedicationStatement  |  StructureMap  | 
+| CoverageEligibilityResponse |  MessageHeader  |  Substance  | 
+| Device | NutritionOrder | ValueSet | 
+|  DiagnosticReport  |  Observation  |  VisionPrescription  | 
+| DocumentManifest |  OperationOutcome  |     | 
 
 Note: An AuditEvent resource can be created or read, but can not be updated or deleted\. 

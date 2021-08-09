@@ -64,7 +64,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Search with GET](search-with-get.md)
    + [Search with POST](search-with-post.md)
 + [Integrated medical natural language processing (NLP)](integrated-medical-nlp.md)
-+ [Quotas for Amazon HealthLake](limits.md)
++ [Quotas for Amazon HealthLake](quotas.md)
 + [Troubleshooting](troubleshooting.md)
    + [Why can't I create a Data Store?](iam-troubleshooting.md)
    + [Exceeded number of Data Stores allowed per account](limits-troubleshooting.md)
